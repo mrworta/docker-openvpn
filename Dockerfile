@@ -5,6 +5,6 @@ MAINTAINER MrWorta - NightSky Services
 
 RUN yum install -y epel-release
 RUN yum update -y
-RUN yum install openvpn easy-rsa
+RUN yum install -y openvpn easy-rsa
 
 CMD true
